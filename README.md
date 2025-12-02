@@ -28,6 +28,8 @@ All notebooks were created and executed using Google Colab.
 * **`Multi30k_data_processing.ipynb`** - Pre-processing scripts for the Multi30k dataset used in the diagnostic phase.
 * **`Multi3k_data_processing.ipynb`** - (Legacy) Alternate processing script.
 
+WMT14 uses same data processing pipeline. Already processed huggingface datasets are already selected on code. 
+
 ---
 **Citation:**
 ```bibtex
