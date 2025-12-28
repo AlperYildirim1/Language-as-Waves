@@ -1,16 +1,22 @@
 # PRISM: Pay Attention Later
 
-> **⚠️ ARCHITECTURAL UPDATE NOTICE (v2 vs v1)**
-> 
-> **Current Status:** The code in this repository implements **PRISM v2 (RoSE - Rotary Semantic Embeddings)**.
-> 
-> The original preprint (*arXiv:2512.01208v1*) described a preliminary version of the harmonic embedding mechanism which has since been superseded. The code here reflects the corrected "Semantic RoSE" architecture, which resolves the phase-locking flaws identified in the initial definitions. 
-> 
-> * **For the exact v1 snapshots used in the paper:** See the archived release DOI: [10.5281/zenodo.17330341](https://doi.org/10.5281/zenodo.17330341).
-> * **For the working, state-of-the-art implementation:** Use the `.ipynb` files in this main branch.
-> 
-> *We strongly recommend using the current repository code for reproduction efforts as it contains critical stability fixes for the spectral gating mechanism.*
+---
 
+# ⚠️ ARCHITECTURAL UPDATE NOTICE (v2 vs v1)
+
+**Current Status: The code in this repository implements PRISM v2 (RoSE - Rotary Semantic Embeddings).**
+
+The original preprint (*arXiv:2512.01208v1*) described a preliminary version of the harmonic embedding mechanism which has since been superseded. The code here reflects the corrected "Semantic RoSE" architecture, which resolves the phase-locking flaws identified in the initial definitions.
+
+* **For the exact v1 snapshots used in the paper:** See the archived release DOI: [10.5281/zenodo.17330341](https://doi.org/10.5281/zenodo.17330341).
+* **For the working, state-of-the-art implementation:** Use the `.ipynb` files in this main branch.
+
+**We strongly recommend using the current repository code for reproduction efforts as it contains critical stability fixes for the spectral gating mechanism.**
+
+---
+
+### Official Implementation for arXiv:2512.01208
+This repository contains the experimental code for **PRISM** (Phase-Resonant Intelligent Spectral Model)...
 ---
 
 ### Official Implementation for arXiv:2512.01208
