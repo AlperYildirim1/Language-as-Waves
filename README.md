@@ -13,6 +13,10 @@ The original preprint (*arXiv:2512.01208v1*) described a preliminary version of 
 **We strongly recommend using the current repository code for reproduction efforts as it contains critical stability fixes for the spectral gating mechanism.**
 
 
+
+
+
+
 ### Official Implementation for arXiv:2512.01208
 This repository contains the experimental code for **PRISM** (Phase-Resonant Intelligent Spectral Model)...
 ---
