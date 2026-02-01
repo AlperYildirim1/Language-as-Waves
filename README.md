@@ -1,6 +1,3 @@
----
-license: cc-by-4.0
----
 # PRISM Training & Evaluation Code
 
 This repository contains the training scripts and evaluation notebooks for reproducing the experiments in "Language as a Wave Phenomenon."
