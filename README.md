@@ -35,4 +35,4 @@ All notebooks pull pre-tokenized data from prism-lab/wikitext-103-prism-32k-seq4
 
 ## Note on Weight Tying
 
-All models use tied embeddings (input embeddings = output projection weights). Checkpoint files contain duplicated weights for compatibility. Evaluation scripts redefine model classes with proper weight tying before loading.
+All models use tied embeddings and uploaded to https://huggingface.co/prism-lab. (input embeddings = output projection weights). Checkpoint files contain duplicated weights for compatibility. Evaluation scripts redefine model classes with proper weight tying before loading.
