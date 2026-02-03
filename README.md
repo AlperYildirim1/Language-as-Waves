@@ -38,6 +38,7 @@ All notebooks pull pre-tokenized data from prism-lab/wikitext-103-prism-32k-seq4
 All models use tied embeddings and uploaded to https://huggingface.co/prism-lab (input embeddings = output projection weights). Checkpoint files contain duplicated weights for compatibility. Evaluation scripts redefine model classes with proper weight tying before loading.
 
 Citation
+```bibtex
 @article{yildirim2026prism,
   title={Language as a Wave Phenomenon: Semantic Phase Locking and Interference in Neural Networks},
   author={Yıldırım, Alper and Yücedağ, İbrahim},
