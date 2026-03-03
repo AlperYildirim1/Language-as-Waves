@@ -34,9 +34,11 @@ This repository contains the training scripts and evaluation notebooks for repro
 All notebooks pull pre-tokenized data from prism-lab/wikitext-103-prism-32k-seq4k and prism-lab/wmt14-de-en-* on HuggingFace.
 
 ## Note on Weight Tying
-We utilized LLMs to assist with writing the code for this project. However, the architectural design, physics-based logic, and critical implementation details (such as enforcing FP32 for FFT stability) were strictly human-directed. The authors assume full responsibility for the code.
 
 All models use tied embeddings and uploaded to https://huggingface.co/prism-lab (input embeddings = output projection weights). Checkpoint files contain duplicated weights for compatibility. Evaluation scripts redefine model classes with proper weight tying before loading.
+
+## Acknowledgements
+We utilized LLMs to assist with writing the code for this project. However, the architectural design, physics-based logic, and critical implementation details (such as enforcing FP32 for FFT stability) were strictly human-directed. The authors assume full responsibility for the code.
 
 Citation
 ```bibtex
