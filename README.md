@@ -2,6 +2,8 @@
 
 This repository contains the training scripts and evaluation notebooks for reproducing the experiments in "Language as a Wave Phenomenon."
 
+WPT codes, real valued ablations and CReLU models will be added soon.
+
 ## WMT14 (Machine Translation)
 
 | Notebook | Description |
@@ -18,7 +20,6 @@ This repository contains the training scripts and evaluation notebooks for repro
 | FNet_Hybrid_Wikitext_Training.ipynb | FNet hybrid (6 spectral + 1 attention) |
 | PRISM_wikitext_103_last.ipynb | PRISM with Dynamic RoSE |
 | HSSM_Wikitext_Training.ipynb | Hybrid Spectral Sequence Model (FNet rate + PRISM phase streams) |
-| WPT_Wikitext_103_Training.ipynb | Wave-Particle Transformer (Transformer sensory + PRISM relational) |
 
 ## Evaluation & Analysis
 
@@ -26,7 +27,7 @@ This repository contains the training scripts and evaluation notebooks for repro
 |----------|-------------|
 | Eval_T4_Last.ipynb | Replicates WikiText-103 results using pretrained checkpoints |
 | Physical_Validation.ipynb | Generates Figure 3b (iso-energetic validation on WMT14 PRISM) |
-| Inspect_Resonances_Last.ipynb | Semantic Phase Compass analysis (Figure 4, Table 2, Appendix figures) |
+| Inspect_Resonances_Last.ipynb | Deleted, will be replaced with stronger version soon. |
 | Skewness_paper_last.ipynb | Layer-wise skewness and carrier wave threshold analysis (Section 5.4, Figure 5, Table 3) |
 
 ## Data
